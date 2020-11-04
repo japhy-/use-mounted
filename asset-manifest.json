@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/@ithreat/use-mounted/static/css/main.2c6a48fe.chunk.css",
+    "main.js": "/@ithreat/use-mounted/static/js/main.4f309e8e.chunk.js",
+    "main.js.map": "/@ithreat/use-mounted/static/js/main.4f309e8e.chunk.js.map",
+    "runtime-main.js": "/@ithreat/use-mounted/static/js/runtime-main.ca81fb94.js",
+    "runtime-main.js.map": "/@ithreat/use-mounted/static/js/runtime-main.ca81fb94.js.map",
+    "static/js/2.c25bf4d5.chunk.js": "/@ithreat/use-mounted/static/js/2.c25bf4d5.chunk.js",
+    "static/js/2.c25bf4d5.chunk.js.map": "/@ithreat/use-mounted/static/js/2.c25bf4d5.chunk.js.map",
+    "index.html": "/@ithreat/use-mounted/index.html",
+    "precache-manifest.317dcd11e0e46465162708d1a66b3830.js": "/@ithreat/use-mounted/precache-manifest.317dcd11e0e46465162708d1a66b3830.js",
+    "service-worker.js": "/@ithreat/use-mounted/service-worker.js",
+    "static/css/main.2c6a48fe.chunk.css.map": "/@ithreat/use-mounted/static/css/main.2c6a48fe.chunk.css.map",
+    "static/js/2.c25bf4d5.chunk.js.LICENSE.txt": "/@ithreat/use-mounted/static/js/2.c25bf4d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca81fb94.js",
+    "static/js/2.c25bf4d5.chunk.js",
+    "static/css/main.2c6a48fe.chunk.css",
+    "static/js/main.4f309e8e.chunk.js"
+  ]
+}
