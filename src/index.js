@@ -1,21 +1,14 @@
-import * as React from 'react'
+import { useRef, useEffect } from 'react';
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState({
-    counter: 0
-  })
+const useMounted = () => {
+    const isMounted = useRef(false);
 
-  React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++
-      setState({counter})
-    }, 1000)
-    return () => {
-      window.clearInterval(interval)
-    }
-  }, [])
+    useEffect(() => {
+        isMounted.current = true;
+        return () => isMounted.current = false;
+    }, []);
 
-  return counter
-}
+    return () => isMounted.current;
+};
+
+export { useMounted };
