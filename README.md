@@ -13,15 +13,23 @@ npm install --save @ithreat/use-mounted
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 
-import { useMyHook } from '@ithreat/use-mounted'
+import { useMounted } from '@ithreat/use-mounted'
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>{example}</div>
-  )
+  const isMounted = useMounted()
+  const [ value, setValue ] = useState()
+
+  const func = (promise) => {
+    promise.then((res) => {
+      // if component is no longer mounted, stop now
+      if (! isMounted()) return;
+
+      // if component is mounted, we can update state
+      setValue(res);
+    })
+  };
 }
 ```
 
