@@ -1,10 +1,10 @@
 {
   "name": "@ithreat/use-mounted",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "useMounted hook for checking to see whether a component is mounted",
   "author": "japhy-",
   "license": "MIT",
-  "repository": "japhy-/@ithreat/use-mounted",
+  "repository": "japhy-/use-mounted",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
